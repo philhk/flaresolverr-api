@@ -1,0 +1,22 @@
+{
+  "name": "flaresolverr-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node source/index.ts",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "Phil",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.0",
+    "axios": "^0.27.2",
+    "http-proxy-agent": "^5.0.0",
+    "https-proxy-agent": "^5.0.1"
+  }
+}
