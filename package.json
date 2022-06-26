@@ -1,12 +1,14 @@
 {
   "name": "flaresolverr-api",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "types": "dist/index.d.ts",
+  "main": "dist/index",
   "scripts": {
     "start": "ts-node source/index.ts",
-    "build": "npx tsc"
+    "build": "tsc"
   },
   "keywords": [],
+  "repository": {"url": "https://github.com/philhk/flaresolverr-api"},
   "author": "Phil",
   "license": "MIT",
   "devDependencies": {
